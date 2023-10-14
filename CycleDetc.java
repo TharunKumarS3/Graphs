@@ -64,6 +64,8 @@ class CycleDetc
         adj.get(2).add(1);
         adj.get(2).add(3);
         adj.get(3).add(2);
+        adj.get(3).add(1);
+        
                 
         CycleDetc obj = new CycleDetc();
         boolean ans = obj.isCycle(4, adj);
