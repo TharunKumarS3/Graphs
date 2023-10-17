@@ -2,6 +2,8 @@ public class ReplaceOwithX {
     //DFS
     //CHECKING TE BOUNDARY 1ST IF FOUND O THEN DO DFS FOR ITS INDEX AND MARK VISITED IN VISITED MATRIX
     //THEN TRAVERSE TO REMAINING MATRIX IF FOUND O AND NOT VISITED MARK IT AS X
+
+    //SAME IN LEETCODE 110
     static char[][] fill(int n,int m, char[][] mat)
     {
         int[][] vis=new int[n][m];
