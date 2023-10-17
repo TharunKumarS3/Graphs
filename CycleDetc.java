@@ -16,7 +16,7 @@ class CycleDetc
         }
         return false;
     }
-    boolean checkForCycle(int index, ArrayList<ArrayList<Integer>> adj,boolean[] vis)
+    boolean checkForCycle(int index, ArrayList<ArrayLimmst<Integer>> adj,boolean[] vis)
     {
         vis[index]=true;
         Queue<Pair> queue=new LinkedList<>();
