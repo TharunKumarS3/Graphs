@@ -2,7 +2,8 @@ public class NoOfEnclaves {
 
 
     //DFS //SAME AS REPLACE 0 WITH X gfg sum
-   static int numberOfEnclaves(int[][] grid) {
+    //LEETCODE 1020
+   static int numEnclaves(int[][] grid) {
         int n=grid.length;
         int m=grid[0].length;
         int[][] vis=new int[n][m];
