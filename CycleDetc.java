@@ -2,7 +2,7 @@ import java.util.*;
 
 class CycleDetc
 {
-    public boolean isCycle(int V, ArrayList<ArrayList<Integer>> adj)
+    public static boolean isCycle(int V, ArrayList<ArrayList<Integer>> adj)
     {
         boolean[] vis=new boolean[V];
         Arrays.fill(vis,false);
@@ -16,7 +16,7 @@ class CycleDetc
         }
         return false;
     }
-    boolean checkForCycle(int index, ArrayList<ArrayLimmst<Integer>> adj,boolean[] vis)
+     static boolean checkForCycle(int index, ArrayList<ArrayList<Integer>> adj,boolean[] vis)
     {
         vis[index]=true;
         Queue<Pair> queue=new LinkedList<>();
