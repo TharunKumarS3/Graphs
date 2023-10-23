@@ -9,7 +9,7 @@ public class BipartateGraph {
         
         // traverse adjacent nodes
         for(int it : adj.get(node)) {
-            // if uncoloured
+            // if not uncoloured
             if(color[it] == -1) {
                 if(dfs(it, 1 - col, color, adj) == false) return false; 
             }
