@@ -9,7 +9,7 @@ public class CourseSchedule {
         ArrayList<ArrayList<Integer>> adj=new ArrayList<>();
         int n=prerequisites.length;
 
-        //creating adj matrix
+        //creating adj list
         for(int i=0;i<N;i++)
         {
             adj.add(new ArrayList<>());
@@ -55,7 +55,7 @@ public class CourseSchedule {
         //no cycle
         if(topo.size()==N)
         return true;
-        
+
         //cycle
         return false;
     }
